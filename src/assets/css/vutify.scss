@@ -1,0 +1,71 @@
+/** all the overriding css for the vuetify class is written here **/
+
+
+/* overriding the default table header color*/
+
+.inner-table {
+  border-radius: 0px !important;
+}
+
+/*------ Btn text transform btn styling ----------*/
+button {
+  text-transform: none !important;
+}
+
+/*------ -------------- ------------- ----------*/
+.custom-header-bg table th:first-child {
+  border-top-left-radius: 15px;
+
+}
+
+.custom-header-bg table th:last-child {
+  border-top-right-radius: 15px;
+}
+
+.custom-header-bg table thead th {
+  background-color: #32345F !important;
+  font-size: 14px !important;
+  font-weight: normal;
+  color: #FFFFFF !important;
+}
+
+
+.custom-header-bg table thead {
+  font-style: normal;
+  font-size: 15px !important;
+  line-height: 18px;
+  align-items: center;
+  letter-spacing: 0.015em;
+  color: #FFFFFF !important;
+}
+
+.status-text-filter,
+.custom-table-body table tbody,
+.custom-table-body table tbody tr td {
+  font-style: normal;
+  //font-weight: 600;
+  font-size: 13px !important;
+  line-height: 18px !important;
+  letter-spacing: 0.015em;
+  color: #333232 !important;
+}
+
+/*------ custom toggle btn styling ----------*/
+
+.custom-toggle-btn .v-input--switch__thumb {
+  background-color: #FFF !important;
+}
+
+.deactive-toggle-btn .v-input--switch--inset .v-input--switch__track,
+.deactive-toggle-btn .v-input--switch__track,
+.v-input--switch__thumb {
+  background-color: #EB5757 !important;
+  opacity: 1 !important;
+}
+
+.active-toggle-btn .v-input--switch__track,
+.v-input--switch__thumb {
+  background-color: #1DC895 !important;
+  opacity: 1 !important;
+}
+

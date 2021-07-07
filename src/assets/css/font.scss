@@ -1,0 +1,91 @@
+/** all the font style is written here for global use**/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,400;1,600&display=swap');
+
+
+.fs-36 {
+  font-size: 36px;
+  line-height: 49px;
+}
+
+.fs-18 {
+  font-size: 18px !important;
+  line-height: 25px;
+}
+
+.fc-primary {
+  color: #03014C;
+}
+
+.fc-secondary {
+  color: #FFF200;
+}
+
+.fc-white {
+  color: #FFFFFF;
+}
+
+/* font weight variation */
+.fw-bold {
+  font-weight: bold;
+}
+
+.card-header-text {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 27px;
+  color: #FFFFFF;
+  padding: 12px 0px;
+}
+
+.title-text-1 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  color: #32345F;
+}
+
+.label-text-1 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12.6988px;
+  line-height: 17px;
+  color: #03014C;
+  opacity: 0.5;
+}
+
+.text-1 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  color: #03014C;
+  opacity: 0.5;
+}
+
+.add-new-btn-text {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.2px;
+  color: #32345F;
+}
+
+
+.custom-form .label-text {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 24px;
+  margin-bottom: 5px;
+  color: #6C6BA2;
+}

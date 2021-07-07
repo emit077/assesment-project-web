@@ -1,0 +1,39 @@
+/*all common style is mentioned here*/
+
+/*----------border-radius  styling-----------------------*/
+.border-r-30 {
+  border-radius: 30px !important;
+}
+
+/*---------- background color styling-----------------------*/
+
+.bg-primary {
+  background-color: #32345F;
+}
+
+/*------------------- custom card header --------------------*/
+.custom-card-header{
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+/*------------ --------------  -------------- ----------------*/
+.small-screen {
+  display: none !important;
+}
+p{
+  margin-bottom: 0px !important;
+}
+
+@media screen and (max-width: 1260px) {
+  .small-screen {
+    display: block !important;
+  }
+
+  .small-screen-flex {
+    display: inline-flex !important;
+  }
+
+  .large-screen {
+    display: none !important;
+  }
+}
